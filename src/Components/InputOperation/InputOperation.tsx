@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactHTMLElement } from "react";
 import styles from "./style.module.css";
 
 interface OperationType {
@@ -19,6 +19,10 @@ const InputOperation = ({ setOperations }: PropsType) => {
 
   const handleNewOperation = () => {
     if (!title || !value || !type) {
+      return window.alert("Preencha as informações corretamente...");
+    }
+    if (+value < 0) {
+      setValue("");
       return window.alert("Preencha as informações corretamente...");
     }
     const newOperation = {
