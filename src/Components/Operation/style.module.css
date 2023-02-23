@@ -16,3 +16,9 @@ i {
 .operation_item i {
   font-size: 1.5rem;
 }
+
+@media (max-width: 500px) {
+  .operation_item {
+    flex-direction: column;
+  }
+}

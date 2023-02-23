@@ -20,10 +20,6 @@
   margin: auto;
   margin-top: 20px;
   color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 .container_newOperation label {
   font-size: 1.5rem;

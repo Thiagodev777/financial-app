@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./style.module.css";
 
 interface OperationType {
   id: number;
@@ -33,22 +34,23 @@ const InputOperation = ({ setOperations }: PropsType) => {
   };
 
   return (
-    <div style={{ margin: "0 10px" }}>
-      <label>
-        Nome:
+    <div className={styles.inputOperation}>
+      <div>
+        <h3>Nome:</h3>
         <input
           type="text"
           value={title}
           onChange={({ target }) => setTitle(target.value)}
         />
-      </label>
-
-      <label>Valor:</label>
-      <input
-        type="number"
-        value={value}
-        onChange={({ target }) => setValue(target.value)}
-      />
+      </div>
+      <div>
+        <h3>Valor:</h3>
+        <input
+          type="number"
+          value={value}
+          onChange={({ target }) => setValue(target.value)}
+        />
+      </div>
       <select value={type} onChange={({ target }) => setType(target.value)}>
         <option disabled value="">
           Tipo

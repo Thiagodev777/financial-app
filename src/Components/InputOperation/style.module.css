@@ -1,0 +1,13 @@
+.inputOperation {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.inputOperation h3 {
+  text-align: center;
+}
+.inputOperation input:nth-child(2) {
+  margin-bottom: 20px;
+}
