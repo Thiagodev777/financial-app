@@ -1,0 +1,71 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container_operation {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.container_newOperation {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container_newOperation label {
+  font-size: 1.5rem;
+}
+.container_newOperation input {
+  outline: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #aaa;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  transition: 0.3s;
+}
+.container_newOperation input:hover {
+  background-color: #fff;
+}
+.container_newOperation select {
+  background-color: #000;
+  border: none;
+  color: gold;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  outline: none;
+}
+.container_newOperation button {
+  background-color: #000;
+  border: none;
+  color: gold;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 12px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container_newOperation button:hover {
+  background-color: gold;
+  color: #141414;
+}

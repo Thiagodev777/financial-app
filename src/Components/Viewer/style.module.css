@@ -1,0 +1,15 @@
+.container_item {
+  flex: 1;
+  text-align: center;
+  margin: 10px 15px;
+  padding: 20px;
+  background-color: #000;
+  color: gold;
+  border-radius: 10px;
+}
+.container_item h1 {
+  margin-bottom: 10px;
+}
+.container_item h2 {
+  font-size: 1.9rem;
+}
